@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { NpHeaderComponent } from './np-header/np-header.component';
 import { NpPageNotFoundComponent } from './np-page-not-found/np-page-not-found.component';
 import { NpFooterComponent } from './np-footer/np-footer.component';
+import { NpHomeComponent } from './np-home/np-home.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -16,6 +17,7 @@ import { NpFooterComponent } from './np-footer/np-footer.component';
     NpHeaderComponent,
     NpPageNotFoundComponent,
     NpFooterComponent,
+    NpHomeComponent,
   ],
   bootstrap: [AppComponent],
 })
